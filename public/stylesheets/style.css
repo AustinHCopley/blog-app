@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: azure;
+  color: darkcyan;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color:cyan;
+}
+
+nav ul {
+  overflow: hidden;
+  background-color: cadetblue;
+  margin-top: 0px;
+}
+
+nav ul a {
+  float: left;
+  margin-right: 8px;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: darkcyan;
+}
+
+nav a:hover {
+  color: cadetblue;
+  background-color: azure;
+}
